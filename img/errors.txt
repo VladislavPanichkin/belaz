@@ -1,0 +1,11 @@
+[11/28/2019, 11:35:03 PM] layer "background_header.png": Duplicate path: background_header.png
+[11/28/2019, 11:35:03 PM] layer "+7 (818) 247-47-25 ": Expected Either a default asset specification or a layer asset specification but "+" found.
+[11/28/2019, 11:35:03 PM] layer "call_answer.png": Duplicate path: call_answer.png
+[11/28/2019, 11:35:03 PM] layer " +7 (818) 247-47-25 ": Expected Either a default asset specification or a layer asset specification but " " found.
+[11/28/2019, 11:35:03 PM] layer " +7 (818) 247-47-25 ": Expected Either a default asset specification or a layer asset specification but " " found.
+[11/28/2019, 11:35:03 PM] layer "+7 (818) 247-47-25": Expected Either a default asset specification or a layer asset specification but "+" found.
+[11/28/2019, 11:35:03 PM] layer "+7 (818) 247-47-25  копия": Expected Either a default asset specification or a layer asset specification but "+" found.
+[11/28/2019, 11:35:03 PM] layer "logo_footer.png": Duplicate path: logo_footer.png
+[11/28/2019, 11:35:03 PM] layer "+7(818) 247-47-25": Expected Either a default asset specification or a layer asset specification but "+" found.
+[11/28/2019, 11:35:03 PM] layer "background_price.png": Duplicate path: background_price.png
+[11/28/2019, 11:35:03 PM] layer "call_answer.png": Duplicate path: call_answer.png
