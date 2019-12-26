@@ -17,10 +17,11 @@
     max-width: 1200px
 }
 
-ul, li {
+ol, li {
     display: block;
     padding: 0;
     margin: 0;
+    border: none !important
 }
 
 .menu-bar, .menu-bar a {
@@ -68,7 +69,6 @@ span :hover {
     background-repeat: no-repeat;
     background-size: 100%;
     text-align: left;
-    text-color: black
 }
 
 .header > .container {
@@ -296,10 +296,10 @@ h2 {
 /* BONUS */
 
 #bonus {
-    height: 570px;
     background: #08243e;
     color: white;
     text-align: center;
+    align-items: center;
 }
 
 #bonus-title {
@@ -308,12 +308,116 @@ h2 {
 }
 
 .bonus_item {
+    font-size: 30px;
+    padding: 40px 20px 40px 25px;
     display: inline-block;
     border-radius: 50%;
     border: 2px solid white;
     border-width: 2px;
-    width: 95px !important;
-    height: 95px;
+    width: 120px;
+    height: 120px;
+    margin-bottom: 39px
 }
 
-  
+.bonus_bottom {
+    padding-bottom: 99px
+}
+
+/* questions */
+
+#questions {
+    text-align: center;
+    color: white;
+    background-color: #0b3554
+}
+
+#questions-title {
+    font-size: 36px;
+    padding-top: 99px;
+    padding-bottom: 30px
+}
+
+#questions-subtitle {
+    font-size: 20px;
+    /*padding-bottom: 100px*/
+}
+
+.list-group-item {
+    display: list-item;
+    background: none;
+    font-size: 16px;
+    text-decoration: underline;
+    text-align: left;
+}
+
+.list-group-description {
+    display: none
+}
+
+#list-group-item-1 {
+    list-style: none
+}
+#list-group-item-6 {
+    list-style-image: url(img/3_reload.png)
+}
+
+.active {
+    display: block
+}
+
+#questions > .container > .row {
+    padding-bottom: 100px
+}
+
+#conveniences {
+    text-align: center;
+    color: black;
+    background-color: white
+}
+
+.conveniences-title {
+    padding: 98px 0 29px 0;
+    font-size: 36px
+}
+
+.conveniences-subtitle {
+    padding-bottom: 100px;
+    font-size: 20px
+}
+
+.conveniences-img {
+    padding-bottom: 50px
+}
+
+.conveniences-description {
+    font-size: 18px;
+    padding-bottom: 100px
+}
+
+#warehouse {
+    text-align: center;
+    color: white;
+    background-color: #0b3554
+}
+
+.warehouse-img {
+    padding-bottom: 99px
+}
+
+#specialists {
+    text-align: center;
+    color: black;
+    background-color: white;
+}
+
+.specialists-container {
+    padding: 98px 0 100px 0
+}
+
+#specialists-title {
+    padding-bottom: 100px
+}
+
+.specialists-img {
+    padding-bottom: 96px
+}

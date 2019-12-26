@@ -1,10 +1,9 @@
-/* $(document).ready(function() {    
-    console.log( "ready!" );
-    $(".input-form").on("focus", function(){
-        $(".input-form").attr('id', '.hide-bg');
-        console.log('shot');
+$(document).ready(function(){
+    $('li').mouseenter(function(){
+        console.log('yay!');
     });
-     $(".input-form").on("blur", function(){
-        $(".input-form").attr('id', 'your-phone');
-    });
-}); */
+    $('li').mouseleave(function(){
+
+    })
+});
+    
