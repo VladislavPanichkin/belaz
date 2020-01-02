@@ -418,6 +418,82 @@ h2 {
     padding-bottom: 100px
 }
 
-.specialists-img {
+.row-center {
     padding-bottom: 96px
+}
+
+#consult {
+    text-align: center;
+    color: white;
+    background-color: #0d324d;
+}
+
+#consult-container {
+    padding: 98px 0 99px 0
+}
+
+.consult-title {
+    font-size: 30px;
+    padding-bottom: 60px
+}
+
+#consult-subtitle {
+    font-size: 14px
+}
+
+.consult-title a {
+    color: white;
+}
+
+.consult-title a:hover {
+    text-decoration: none
+}
+
+#input-form-telephone-consult {
+    background-color: #f2f2f2;
+    width: 370px;
+    height: 70px;
+    border: none;
+    text-indent: 50px;
+    background-image: url(img/call_answer.png);
+    background-repeat: no-repeat;
+    background-position: 320px
+}
+
+#consult-send-button {
+    background-color: #f7b516;
+    width: 370px;
+    height: 70px;
+    border: none;
+}
+
+#office {
+    background-image: url(img/layer_14.png);
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+#office-container {
+    padding: 98px 0 104px 0
+}
+
+#office-title {
+    font-size: 30px;
+    padding-bottom: 100px;
+    margin: 0
+}
+
+#office-subtitle {
+    font-size: 18px;
+    padding-bottom: 34px;
+    margin: 0
+}
+
+#office-phone {
+    font-size: 24px
+}
+
+#map {
+    height: 370px;
+    width: 100%
 }

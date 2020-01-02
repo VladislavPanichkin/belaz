@@ -359,15 +359,17 @@
             <h2 id="specialists-title">У нас в штате есть мобильные бригады,<br />готовые выехать на сервисное обслуживание,<br />ремонт и проведение диагностики</h2>
           </div>
         </div>
-        <div class="row">
-          <div class="col-xl-4 specialists-img">
-            <img src="img/delivery.png">
+        <div class="row row-center">
+          <div class="col-xl-4">
+              <img src="img/delivery.png" class="specialists-img">
+              <div id="circle"></div>
           </div>
-          <div class="col-xl-4 specialists-img"">
-            <img src="img/toolbox.png">
-          </div>
-          <div class="col-xl-4 specialists-img"">
-            <img src="img/certificate.png">
+          <div class="col-xl-4"> <!--Необходимо переделать все колонки, чтобы иконка и описание были в одном div'е-->
+              <img src="img/toolbox.png" class="specialists-img">
+              <div id="rectangle"></div>
+            </div>
+          <div class="col-xl-4">
+              <img src="img/certificate.png" class="specialists-img">
           </div>
         </div>
         <div class="row">
@@ -377,6 +379,57 @@
         </div>
       </div>
     </section>
+    <section id="consult">
+      <div class="container" id="consult-container">
+        <div class="row">
+          <div class="col-xl-12">
+            <h2 class="consult-title">Если Вам необходима бесплатная консультация по вопросу обслуживания</h2>
+            <h5 id="consult-subtitle">Звоните нам по телефону:</h5>
+            <h2 class="consult-title"><a href="tel:+7(818)247-47-25">+7 (818) 247-47-25</a></h2> <!--Здесь стоит неправильный отступ, должно быть на 3 пикселя больше-->
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xl-4 offset-xl-2">
+            <form>
+              <input type="text" placeholder="ВВЕДИТЕ ВАШ ТЕЛЕФОН" id="input-form-telephone-consult">
+            </form>
+          </div>
+          <div class="col-xl-4">
+            <form>
+              <button id="consult-send-button">
+                ПЕРЕЗВОНИТЬ СЕЙЧАС
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="office">
+      <div class="container" id="office-container">
+        <div class="row">
+          <div class="col-xl-12"> <!--Пересмотреть классы, текст не занимает столько места-->
+            <h2 id="office-title">
+              Приезжайте в наш офис!
+            </h2>
+            <h4 id="office-subtitle">г.Архангельск, Москва-Сити, оф. 3725</h4>
+            <a href="tel:+7(818)247-47-25" id="office-phone">+7(818)247-47-25</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1714.8639467731716!2d40.513291451994!3d64.54449498937885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x441836858b23cd43%3A0xf35372b070d2d7d!2z0L_RgNC-0YHQvy4g0KLRgNC-0LjRhtC60LjQuSwgNjUsINCQ0YDRhdCw0L3Qs9C10LvRjNGB0LosINCQ0YDRhdCw0L3Qs9C10LvRjNGB0LrQsNGPINC-0LHQuy4sIDE2MzAwNA!5e0!3m2!1sru!2sru!4v1577983457280!5m2!1sru!2sru" frameborder="0" allowfullscreen="" id="map"></iframe>
+    <footer class="page-footer font-small special-color-dark">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-2">
+            <img src="img/logo_footer.png">
+          </div>
+          <div class="col-xl-4 offset-xl-2">
+            
+          </div>
+        </div>
+      </div>
+    </footer>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
