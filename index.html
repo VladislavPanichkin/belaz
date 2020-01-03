@@ -1,438 +1,477 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="fonts.css">
-    <title>Белаз</title>
-  </head>
-  <body>
-    <header class="menu-bar">
-      <div class="container">
-        <div class="row">
-          <div class="col-xl-2 align-self-center">
-            <img src="img/logo.png" alt="Belaz" class="logo">
-          </div>
-          <div class="col-xl-2 ml-auto align-self-center">
-            <ul>
-              <li class="header-element">
-                с 9.00 до 21.00
-              </li>
-              <li class="header-element">
-                без выходных
-              </li>
-            </ul>
-          </div>
-          <div class="col-xl-2">
-            <ul>
-              <li>
-                <a href="tel:+78182474725" class="header-telephone">+7 (818) 247-47-25</a>
-              </li>
-              <li>
-                <a href="tel:+78182474725" class="header-telephone">+7 (818) 247-47-25</a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-xl-2">
-                <span><a href="#" id="order-call-button">ЗАКАЗАТЬ ЗВОНОК</a></span>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="fonts.css">
+  <title>Белаз</title>
+</head>
+
+<body>
+  <header class="menu-bar">
+    <div class="container header-container">
+      <div class="row">
+        <div class="col-xl-2">
+          <img src="img/logo.png" alt="Belaz" class="logo">
+        </div>
+        <div class="col-xl-2 offset-xl-3 justify-content-center">
+          <ul>
+            <li class="header-element">
+              с 9.00 до 21.00
+            </li>
+            <li class="header-element">
+              без выходных
+            </li>
+          </ul>
+        </div>
+        <div class="col-xl-2 offset-xl-1">
+          <ul>
+            <li>
+              <a href="tel:+78182474725" class="header-telephone">+7 (818) 247-47-25</a>
+            </li>
+            <li>
+              <a href="tel:+78182474725" class="header-telephone">+7 (818) 247-47-25</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-xl-2 header-order-call">
+          <span><a href="#" id="order-call-button">ЗАКАЗАТЬ ЗВОНОК</a></span>
+        </div>
+      </div>
+    </div>
+    </div>
+  </header>
+  <header class="header">
+    <div class="container">
+      <div class="header__title">ОРИГИНАЛЬНЫЕ ЗАПЧАСТИ <br />ДЛЯ БЕЛАЗ</div>
+      <div class="header__subtitle">с бесплатной доставкой<br />в Ваш город!</div>
+      <div class="container list">
+        <div class="row header_row">
+          <div class="col-xl-2"><img src="img/piggy_bank.png" alt="piggy bank"></div>
+          <div class="col-xl-10"> Дилерские цены - ниже на 20%, работаем без посредников!</div>
+        </div>
+        <div class="row header_row">
+          <div class="col-xl-2"><img src="img/truck.png" alt="truck"></div>
+          <div class="col-xl-10">Срочная бесплатная доставка за 7 дней</div>
+        </div>
+        <div class="row header_row">
+          <div class="col-xl-2"><img src="img/calendar.png" alt="calendar"></div>
+          <div class="col-xl-10">Даем рассрочку<br />36 месяцев</div>
+        </div>
+        <div class="row header_row">
+          <div class="col-xl-2"><img src="img/medal.png" alt="medal"></div>
+          <div class="col-xl-10">Даем гарантию<br />от 12 месяцев</div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!--нижняя часть хедера-->
+  <section class="get__info">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-12">
+          <h2 id="get_price_now">
+            Получите прайс прямо сейчас<br />на электронную почту!
+          </h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xl-6">
+          <form>
+            <input type="text" placeholder="ВВЕДИТЕ ВАШ E-MAIL" class="input-form-header" id="your_email">
+          </form>
+        </div>
+        <div class="col-xl-6">
+          <form>
+            <input type="text" placeholder="ВВЕДИТЕ ВАШ ТЕЛЕФОН" class="input-form-header" id="your_phone">
+          </form>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xl-6" id="price__time">
+          <span>Прайс придет к Вам на почту<br />в течение 5 минут!</span><img src="img/clock.png" alt="clock">
+        </div>
+        <div class="col-xl-6">
+          <span>
+            <a href="" id="get__price">
+              ПОЛУЧИТЬ ПРАЙС
+            </a>
+          </span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="top-bottom">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-12" id="header_bottom_subtitle">
+          <h2 id="top_bottom_title">Вам не придется ждать!</h2>
+          <h3 id="top_bottom_subtitle">Любые запчасти для всех моделей Белаз<br />всегда в наличии</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xl-3">
+          <img src="img/engine.png" alt="engine" class="top_bottom_img">
+          <h4 class="top_bottom_description">
+            Любые типы деталей<br />от шайбы до двигателя!
+          </h4>
+        </div>
+        <div class="col-xl-3">
+          <img src="img/dump_truck.png" alt="dump_truck" class="top_bottom_img">
+          <h4 class="top_bottom_description">
+            Все модификации Белаз<br />от 45т до 450т
+          </h4>
+        </div>
+        <div class="col-xl-3">
+          <img src="img/calendar1.png" alt="calendar" class="top_bottom_img">
+          <h4 class="top_bottom_description">
+            Отгружаем в день заказа!
+          </h4>
+        </div>
+        <div class="col-xl-3">
+          <img src="img/form.png" alt="form" class="top_bottom_img">
+          <h4 class="top_bottom_description">
+            Доставим в любое место!
+          </h4>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--здесь хедер кончился-->
+  <section id="vendor">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-12">
+          <h2 id="vendor_title">
+            Ищите конкретную деталь?
+          </h2>
+          <h3 id="vendor_subtitle">
+            Если у Вас есть артикул - введите его в поле ниже и получите цену<br />ПРЯМО СЕЙЧАС!
+          </h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xl-4">
+          <form>
+            <input type="text" placeholder="ВВЕДИТЕ АРТИКУЛ ДЕТАЛИ" class="input_form_vendor">
+          </form>
+        </div>
+        <div class="col-xl-4">
+          <form>
+            <input type="text" placeholder="ВВЕДИТЕ ВАШ ТЕЛЕФОН" class="input_form_vendor" id="phone_img_vendor">
+          </form>
+        </div>
+        <div class="col-xl-4">
+          <form>
+            <button id="vendor_send_button">УЗНАТЬ ЦЕНУ</button>
+          </form>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xl-12">
+          <h4 id="vendor_call">
+            Мы перезвоним вам в течение 3 минут и назовем цену детали!<br />Или Вы можете перезвонить нам сами:
+          </h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xl-12">
+          <h2 id="vendor_number">+7 (818)247-47-25</h2>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="guarantees">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-12 guarantees-title">
+          <h2>Мы гарантируем сохранность деталей<br />во время перевозки!</h2>
+        </div>
+      </div>
+      <div class="row guarantees-img">
+        <div class="col-xl-4">
+          <img src="img/2_image3.png">
+        </div>
+        <div class="col-xl-4">
+          <img src="img/2_image2.png">
+        </div>
+        <div class="col-xl-4">
+          <img src="img/2_image1.png">
+        </div>
+      </div>
+      <div class="row guarantees-subtitles">
+        <div class="col-xl-4">
+          <h4>Гарантия на целостность поставки<br />прописана в договоре</h4>
+        </div>
+        <div class="col-xl-4">
+          <h4>Каждая запчасть доставляется с завода<br />в жесткой упаковке</h4>
+        </div>
+        <div class="col-xl-4">
+          <h4>Дополнительный контроль качества<br />нашими специалистами</h4>
+        </div>
+      </div>
+      <div class="row guarantees-more">
+        <div class="col-xl-4">
+          <a href="#">ПОДРОБНЕЕ</a>
+        </div>
+        <div class="col-xl-4">
+          <a href="#">ПОДРОБНЕЕ</a>
+        </div>
+        <div class="col-xl-4">
+          <a href="#">ПОДРОБНЕЕ</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="bonus">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-12">
+          <h2 id="bonus-title">У нас разработаны бонусные системы<br />и скидки для наших клиентов</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xl-3">
+          <span class="bonus_item">10%</span>
+        </div>
+        <div class="col-xl-3">
+          <span class="bonus_item">20%</span>
+        </div>
+        <div class="col-xl-3">
+          <span class="bonus_item"><img src="img/4_delivery_truck.png"></span>
+        </div>
+        <div class="col-xl-3">
+          <span class="bonus_item"><img src="img/telemarketer.png"></span>
+        </div>
+      </div>
+      <div class="row bonus_bottom">
+        <div class="col-xl-3">Дополнительная скидка 10%<br />на вторую запчасть<br />и любые последующие</div>
+        <div class="col-xl-3">Скидка 20% при заключении<br />договора на годовое<br />сервисное обслуживание</div>
+        <div class="col-xl-3">Бесплатная доставка<br />по всей России<br />для всех клиентов</div>
+        <div class="col-xl-3">Бесплатная круглосуточная<br />техническая поддержка</div>
+      </div>
+    </div>
+  </section>
+  <section id="questions">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-12">
+          <h2 id="questions-title">У Вас остались вопросы?</h2>
+          <h3 id="questions-subtitle">На Ваши вопросы отвечает Эдуард</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xl-4">
+          <ol class="list-group" type="1">
+            <li class="list-group-item" id="list-group-item-1">Как заказать деталь правильно?</li>
+            <div class="list-group-description">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua.</p>
+              <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat.</p>
             </div>
-          </div>
-        </div>
-      </div>
-    </header>
-    <header class="header">
-      <div class="container">
-            <div class="header__title">ОРИГИНАЛЬНЫЕ ЗАПЧАСТИ <br />ДЛЯ БЕЛАЗ</div>
-            <div class="header__subtitle">с бесплатной доставкой<br />в Ваш город!</div>
-            <div class="container list">
-              <div class="row header_row">
-                  <div class="col-xl-2"><img src="img/piggy_bank.png" alt="piggy bank"></div>
-                  <div class="col-xl-10"> Дилерские цены - ниже на 20%, работаем без посредников!</div>
-              </div>
-                <div class="row header_row">
-                  <div class="col-xl-2"><img src="img/truck.png" alt="truck"></div> 
-                  <div class="col-xl-10">Срочная бесплатная доставка за 7 дней</div>
-                </div>
-                <div class="row header_row">
-                  <div class="col-xl-2"><img src="img/calendar.png" alt="calendar"></div>
-                  <div class="col-xl-10">Даем рассрочку<br />36 месяцев</div>
-                </div>
-                <div class="row header_row">
-                  <div class="col-xl-2"><img src="img/medal.png" alt="medal"></div>
-                  <div class="col-xl-10">Даем гарантию<br />от 12 месяцев</div>
-                </div>
-              </div>
-      </div>
-    </header>
-    <!--нижняя часть хедера-->
-    <section class="get__info">
-      <div class="container">
-        <div class="row">
-          <div class="col-xl-12">
-            <h2 id="get_price_now">
-              Получите прайс прямо сейчас<br/>на электронную почту!
-            </h2>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-xl-6">
-            <form>
-              <input type="text" placeholder="ВВЕДИТЕ ВАШ E-MAIL" class="input-form-header" id="your_email">
-            </form>
-          </div>
-          <div class="col-xl-6">
-            <form>
-              <input type="text" placeholder="ВВЕДИТЕ ВАШ ТЕЛЕФОН" class="input-form-header" id="your_phone">
-            </form>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-xl-6" id="price__time">
-            <span>Прайс придет к Вам на почту<br />в течение 5 минут!</span><img src="img/clock.png" alt="clock">
-          </div>
-          <div class="col-xl-6">
-            <span>
-              <a href="" id="get__price">
-                  ПОЛУЧИТЬ ПРАЙС
-              </a>
-            </span>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="top-bottom">
-      <div class="container">
-        <div class="row">
-          <div class="col-xl-12" id="header_bottom_subtitle">
-            <h2 id="top_bottom_title">Вам не придется ждать!</h2>
-            <h3 id="top_bottom_subtitle">Любые запчасти для всех моделей Белаз<br />всегда в наличии</h3>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-xl-3">
-            <img src="img/engine.png" alt="engine" class="top_bottom_img">
-            <h4 class="top_bottom_description">
-              Любые типы деталей<br />от шайбы до двигателя!
-            </h4>
-          </div>
-          <div class="col-xl-3">
-            <img src="img/dump_truck.png" alt="dump_truck" class="top_bottom_img">
-            <h4 class="top_bottom_description">
-              Все модификации Белаз<br />от 45т до 450т
-            </h4>
-          </div>
-          <div class="col-xl-3">
-            <img src="img/calendar1.png" alt="calendar" class="top_bottom_img">
-            <h4 class="top_bottom_description">
-              Отгружаем в день заказа!
-            </h4>
-          </div>
-          <div class="col-xl-3">
-            <img src="img/form.png" alt="form" class="top_bottom_img">
-            <h4 class="top_bottom_description">
-              Доставим в любое место!
-            </h4>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!--здесь хедер кончился-->
-    <section id="vendor">
-      <div class="container">
-        <div class="row">
-          <div class="col-xl-12">
-            <h2 id="vendor_title">
-              Ищите конкретную деталь?
-            </h2>
-            <h3 id="vendor_subtitle">
-              Если у Вас есть артикул - введите его в поле ниже и получите цену<br />ПРЯМО СЕЙЧАС!
-            </h3>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-xl-4">
-            <form>
-              <input type="text" placeholder="ВВЕДИТЕ АРТИКУЛ ДЕТАЛИ" class="input_form_vendor">
-            </form>
-          </div>
-          <div class="col-xl-4">
-            <form>
-              <input type="text" placeholder="ВВЕДИТЕ ВАШ ТЕЛЕФОН" class="input_form_vendor" id="phone_img_vendor">
-            </form>
-          </div>
-          <div class="col-xl-4">
-            <form>
-              <button id="vendor_send_button">УЗНАТЬ ЦЕНУ</button>
-            </form>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-xl-12">
-            <h4 id="vendor_call">
-              Мы перезвоним вам в течение 3 минут и назовем цену детали!<br />Или Вы можете перезвонить нам сами:
-            </h4>
-        </div>
-        </div>
-        <div class="row">
-          <div class="col-xl-12">
-            <h2 id="vendor_number">+7 (818)247-47-25</h2>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="guarantees">
-      <div class="container">
-        <div class="row">
-          <div class="col-xl-12 guarantees-title">
-            <h2>Мы гарантируем сохранность деталей<br />во время перевозки!</h2>
-          </div>
-        </div>
-        <div class="row guarantees-img">
-          <div class="col-xl-4">
-            <img src="img/2_image3.png">
-          </div>
-          <div class="col-xl-4">
-            <img src="img/2_image2.png">
-          </div>
-          <div class="col-xl-4">
-            <img src="img/2_image1.png">
-          </div>
-        </div>
-        <div class="row guarantees-subtitles">
-          <div class="col-xl-4">
-            <h4>Гарантия на целостность поставки<br />прописана в договоре</h4>
-          </div>
-          <div class="col-xl-4">
-            <h4>Каждая запчасть доставляется с завода<br/>в жесткой упаковке</h4>
-          </div>
-          <div class="col-xl-4">
-            <h4>Дополнительный контроль качества<br />нашими специалистами</h4>
-          </div>
-        </div>
-        <div class="row guarantees-more">
-          <div class="col-xl-4">
-            <a href="#">ПОДРОБНЕЕ</a>
-          </div>
-          <div class="col-xl-4">
-            <a href="#">ПОДРОБНЕЕ</a>
-          </div>
-          <div class="col-xl-4">
-            <a href="#">ПОДРОБНЕЕ</a>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="bonus">
-      <div class="container">
-        <div class="row">
-          <div class="col-xl-12">
-            <h2 id="bonus-title">У нас разработаны бонусные системы<br />и скидки для наших клиентов</h2>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-xl-3">
-            <span class="bonus_item">10%</span>
-          </div>
-          <div class="col-xl-3">
-            <span class="bonus_item">20%</span>
-          </div>
-          <div class="col-xl-3">
-            <span class="bonus_item"><img src="img/4_delivery_truck.png"></span>
-          </div>
-          <div class="col-xl-3">
-            <span class="bonus_item"><img src="img/telemarketer.png"></span>
-          </div>
-        </div>
-        <div class="row bonus_bottom">
-          <div class="col-xl-3">Дополнительная скидка 10%<br />на вторую запчасть<br />и любые последующие</div>
-          <div class="col-xl-3">Скидка 20% при заключении<br />договора на годовое<br />сервисное обслуживание</div>
-          <div class="col-xl-3">Бесплатная доставка<br />по всей России<br />для всех клиентов</div>
-          <div class="col-xl-3">Бесплатная круглосуточная<br />техническая поддержка</div>
-        </div>
-      </div>
-    </section>
-    <section id="questions">
-      <div class="container">
-        <div class="row">
-          <div class="col-xl-12">
-            <h2 id="questions-title">У Вас остались вопросы?</h2>
-            <h3 id="questions-subtitle">На Ваши вопросы отвечает Эдуард</h3>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-xl-4">
-            <ol class="list-group" type="1">
-                <li class="list-group-item" id="list-group-item-1">Как заказать деталь правильно?</li>
-                <div class="list-group-description">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                  <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                </div>
-                <li class="list-group-item">Что делать, если запчасть не понадобилась?</li>
-                <div class="list-group-description">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                  <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                </div>
-                <li class="list-group-item">Можете ли Вы установить деталь?</li>
-                <div class="list-group-description">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                  <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                </div>
-                <li class="list-group-item">В чем преимущества оригинальных деталей?</li>
-                <div class="list-group-description">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                  <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                </div class="list-group-description">
-                <li class="list-group-item">В чем преимущества оригинальных деталей?</li>
-                <div class="list-group-description">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                  <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                </div>
-                <li class="list-group-item" id="list-group-item-6">Ещё вопросы</li>
-              </ol>
-          </div>
-          <div class="col-xl-6 offset-xl-2">
-            <img src="img/eddie_photo.png" alt="eddie">
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="conveniences">
-      <div class="container">
-        <div class="row">
-          <div class="col-xl-12">
-            <h2 class="conveniences-title">С нами удобно работать!</h2>
-            <h3 class="conveniences-subtitle">
-              Более 70% клиентов приходят к нам по рекомендации!
-            </h3>
-          </div>
-        </div>
-        <div class="row conveniences-img">
-          <div class="col-xl-4">
-            <img src="img/layer_9.png">
-          </div>
-          <div class="col-xl-4">
-            <img src="img/layer_10.png">
-          </div>
-          <div class="col-xl-4">
-            <img src="img/layer_11.png">
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-xl-4 conveniences-description">Вы вносите предоплату<br />в размере 50%<br />от стоимости запчасти</div>
-          <div class="col-xl-4 conveniences-description">Отправляем запчасти<br />в день заказа</div>
-          <div class="col-xl-4 conveniences-description">Получаете деталь<br />проверяете, оплачиваете<br />оставшиеся 50%</div>
-        </div>
-      </div>
-    </section>
-    <section id="warehouse">
-      <div class="container">
-        <div class="row">
-          <div class="col-xl-12">
-            <h2 class="conveniences-title"> <!-- здесь использую класс заголовка такой же, как в предыдущем блоке-->
-              У нас собственный склад!
-            </h2>
-            <h3 class="conveniences-subtitle">
-              Что позволяет нам быстро обрабатывать запросы и отгружать детали<br />в день заказа!
-            </h3>
-          </div>
-        </div>
-        <div class="row warehouse-img">
-          <div class="col-xl-4 offset-xl-0,5">
-            <img src="img/layer_19.png">
-          </div>
-          <div class="col-xl-4">
-            <img src="img/layer_18.png">
-          </div>
-          <div class="col-xl-4">
-            <img src="img/layer_19.png">
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="specialists">
-      <div class="container specialists-container"> <!--здесь пробую сделать отступы на родительском элементе-->
-        <div class="row">
-          <div class="col-xl-12">
-            <h2 id="specialists-title">У нас в штате есть мобильные бригады,<br />готовые выехать на сервисное обслуживание,<br />ремонт и проведение диагностики</h2>
-          </div>
-        </div>
-        <div class="row row-center">
-          <div class="col-xl-4">
-              <img src="img/delivery.png" class="specialists-img">
-              <div id="circle"></div>
-          </div>
-          <div class="col-xl-4"> <!--Необходимо переделать все колонки, чтобы иконка и описание были в одном div'е-->
-              <img src="img/toolbox.png" class="specialists-img">
-              <div id="rectangle"></div>
+            <li class="list-group-item">Что делать, если запчасть не понадобилась?</li>
+            <div class="list-group-description">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua.</p>
+              <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat.</p>
             </div>
-          <div class="col-xl-4">
-              <img src="img/certificate.png" class="specialists-img">
-          </div>
+            <li class="list-group-item">Можете ли Вы установить деталь?</li>
+            <div class="list-group-description">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua.</p>
+              <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat.</p>
+            </div>
+            <li class="list-group-item">В чем преимущества оригинальных деталей?</li>
+            <div class="list-group-description">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua.</p>
+              <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat.</p>
+            </div class="list-group-description">
+            <li class="list-group-item">В чем преимущества оригинальных деталей?</li>
+            <div class="list-group-description">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua.</p>
+              <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat.</p>
+            </div>
+            <li class="list-group-item" id="list-group-item-6">Ещё вопросы</li>
+          </ol>
         </div>
-        <div class="row">
-          <div class="col-xl-4">Организуем выезд специалистов<br />в течение двух дней</div>
-          <div class="col-xl-4">Бригады укомплектованы<br />всем необходимым оборудованием<br />для производства работ<br />любой сложности</div>
-          <div class="col-xl-4">Все специалисты проходят обучение<br />и ежегодную аттестацию</div>
-        </div>
-      </div>
-    </section>
-    <section id="consult">
-      <div class="container" id="consult-container">
-        <div class="row">
-          <div class="col-xl-12">
-            <h2 class="consult-title">Если Вам необходима бесплатная консультация по вопросу обслуживания</h2>
-            <h5 id="consult-subtitle">Звоните нам по телефону:</h5>
-            <h2 class="consult-title"><a href="tel:+7(818)247-47-25">+7 (818) 247-47-25</a></h2> <!--Здесь стоит неправильный отступ, должно быть на 3 пикселя больше-->
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-xl-4 offset-xl-2">
-            <form>
-              <input type="text" placeholder="ВВЕДИТЕ ВАШ ТЕЛЕФОН" id="input-form-telephone-consult">
-            </form>
-          </div>
-          <div class="col-xl-4">
-            <form>
-              <button id="consult-send-button">
-                ПЕРЕЗВОНИТЬ СЕЙЧАС
-              </button>
-            </form>
-          </div>
+        <div class="col-xl-6 offset-xl-2">
+          <img src="img/eddie_photo.png" alt="eddie">
         </div>
       </div>
-    </section>
-    <section id="office">
-      <div class="container" id="office-container">
-        <div class="row">
-          <div class="col-xl-12"> <!--Пересмотреть классы, текст не занимает столько места-->
-            <h2 id="office-title">
-              Приезжайте в наш офис!
-            </h2>
-            <h4 id="office-subtitle">г.Архангельск, Москва-Сити, оф. 3725</h4>
-            <a href="tel:+7(818)247-47-25" id="office-phone">+7(818)247-47-25</a>
-          </div>
+    </div>
+  </section>
+  <section id="conveniences">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-12">
+          <h2 class="conveniences-title">С нами удобно работать!</h2>
+          <h3 class="conveniences-subtitle">
+            Более 70% клиентов приходят к нам по рекомендации!
+          </h3>
         </div>
       </div>
-    </section>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1714.8639467731716!2d40.513291451994!3d64.54449498937885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x441836858b23cd43%3A0xf35372b070d2d7d!2z0L_RgNC-0YHQvy4g0KLRgNC-0LjRhtC60LjQuSwgNjUsINCQ0YDRhdCw0L3Qs9C10LvRjNGB0LosINCQ0YDRhdCw0L3Qs9C10LvRjNGB0LrQsNGPINC-0LHQuy4sIDE2MzAwNA!5e0!3m2!1sru!2sru!4v1577983457280!5m2!1sru!2sru" frameborder="0" allowfullscreen="" id="map"></iframe>
-    <footer class="page-footer font-small special-color-dark">
-      <div class="container">
-        <div class="row">
-          <div class="col-xl-2">
-            <img src="img/logo_footer.png">
-          </div>
-          <div class="col-xl-4 offset-xl-2">
-            
-          </div>
+      <div class="row conveniences-img">
+        <div class="col-xl-4">
+          <img src="img/layer_9.png">
+        </div>
+        <div class="col-xl-4">
+          <img src="img/layer_10.png">
+        </div>
+        <div class="col-xl-4">
+          <img src="img/layer_11.png">
         </div>
       </div>
-    </footer>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    <script src="app.js"></script>
-  </body>
+      <div class="row">
+        <div class="col-xl-4 conveniences-description">Вы вносите предоплату<br />в размере 50%<br />от стоимости
+          запчасти</div>
+        <div class="col-xl-4 conveniences-description">Отправляем запчасти<br />в день заказа</div>
+        <div class="col-xl-4 conveniences-description">Получаете деталь<br />проверяете, оплачиваете<br />оставшиеся 50%
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="warehouse">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-12">
+          <h2 class="conveniences-title">
+            <!-- здесь использую класс заголовка такой же, как в предыдущем блоке-->
+            У нас собственный склад!
+          </h2>
+          <h3 class="conveniences-subtitle">
+            Что позволяет нам быстро обрабатывать запросы и отгружать детали<br />в день заказа!
+          </h3>
+        </div>
+      </div>
+      <div class="row warehouse-img">
+        <div class="col-xl-4 offset-xl-0,5">
+          <img src="img/layer_19.png">
+        </div>
+        <div class="col-xl-4">
+          <img src="img/layer_18.png">
+        </div>
+        <div class="col-xl-4">
+          <img src="img/layer_19.png">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="specialists">
+    <div class="container specialists-container">
+      <!--здесь пробую сделать отступы на родительском элементе-->
+      <div class="row">
+        <div class="col-xl-12">
+          <h2 id="specialists-title">У нас в штате есть мобильные бригады,<br />готовые выехать на сервисное
+            обслуживание,<br />ремонт и проведение диагностики</h2>
+        </div>
+      </div>
+      <div class="row row-center">
+        <div class="col-xl-4">
+          <img src="img/delivery.png" class="specialists-img">
+          <div id="circle"></div>
+        </div>
+        <div class="col-xl-4">
+          <!--Необходимо переделать все колонки, чтобы иконка и описание были в одном div'е-->
+          <img src="img/toolbox.png" class="specialists-img">
+          <div id="rectangle"></div>
+        </div>
+        <div class="col-xl-4">
+          <img src="img/certificate.png" class="specialists-img">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xl-4">Организуем выезд специалистов<br />в течение двух дней</div>
+        <div class="col-xl-4">Бригады укомплектованы<br />всем необходимым оборудованием<br />для производства
+          работ<br />любой сложности</div>
+        <div class="col-xl-4">Все специалисты проходят обучение<br />и ежегодную аттестацию</div>
+      </div>
+    </div>
+  </section>
+  <section id="consult">
+    <div class="container" id="consult-container">
+      <div class="row">
+        <div class="col-xl-12">
+          <h2 class="consult-title">Если Вам необходима бесплатная консультация по вопросу обслуживания</h2>
+          <h5 id="consult-subtitle">Звоните нам по телефону:</h5>
+          <h2 class="consult-title"><a href="tel:+7(818)247-47-25">+7 (818) 247-47-25</a></h2>
+          <!--Здесь стоит неправильный отступ, должно быть на 3 пикселя больше-->
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xl-4 offset-xl-2">
+          <form>
+            <input type="text" placeholder="ВВЕДИТЕ ВАШ ТЕЛЕФОН" id="input-form-telephone-consult">
+          </form>
+        </div>
+        <div class="col-xl-4">
+          <form>
+            <button id="consult-send-button">
+              ПЕРЕЗВОНИТЬ СЕЙЧАС
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="office">
+    <div class="container" id="office-container">
+      <div class="row">
+        <div class="col-xl-12">
+          <!--Пересмотреть классы, текст не занимает столько места-->
+          <h2 id="office-title">
+            Приезжайте в наш офис!
+          </h2>
+          <h4 id="office-subtitle">г.Архангельск, Москва-Сити, оф. 3725</h4>
+          <a href="tel:+7(818)247-47-25" id="office-phone">+7(818)247-47-25</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1714.8639467731716!2d40.513291451994!3d64.54449498937885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x441836858b23cd43%3A0xf35372b070d2d7d!2z0L_RgNC-0YHQvy4g0KLRgNC-0LjRhtC60LjQuSwgNjUsINCQ0YDRhdCw0L3Qs9C10LvRjNGB0LosINCQ0YDRhdCw0L3Qs9C10LvRjNGB0LrQsNGPINC-0LHQuy4sIDE2MzAwNA!5e0!3m2!1sru!2sru!4v1577983457280!5m2!1sru!2sru"
+    frameborder="0" allowfullscreen="" id="map"></iframe>
+  <footer class="page-footer font-small special-color-dark">
+    <div class="container footer-container">
+      <div class="row">
+        <div class="col-xl-2">
+          <img src="img/logo.png">
+        </div>
+        <div class="col-xl-3 offset-xl-3 copyright">
+          &copy; 2016 СДЕЛАНО С&nbsp;&nbsp;<img src="img/love.png">
+        </div>
+        <div class="col-xl-2 offset-xl-2">
+          <h4 id="footer-questions">
+            Есть вопросы? Звоните!
+          </h4>
+          <a href="tel:+7(818)247-47-25" id="footer-phone">
+            +7(818) 247-47-25
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+  <script src="app.js"></script>
+</body>
+
 </html>
