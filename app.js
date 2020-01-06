@@ -7,5 +7,5 @@ $(document).ready(function(){
         if (!item.is(event.target) && item.has(event.target).length === 0){
             item.hide();
         }
-    })
+    });
 });
