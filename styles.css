@@ -45,10 +45,6 @@ ol, li {
     font-size: 18px;
 }
 
-.header-telephone:hover {
-    text-decoration: underline
-}
-
 #order-call-button {
     font-size: 12px;
     background-image: -moz-linear-gradient( 125deg, rgb(39,53,136) 0%, rgb(28,98,172) 100%);
@@ -223,7 +219,6 @@ h2 {
 /* хедер кончился */
 
 #vendor {
-    height: 580px;
     width: 100%;
     background-image: url(img/background_2.png);
     color: white;
@@ -232,14 +227,19 @@ h2 {
     text-align: center;
 }
 
+.vendor-container {
+    padding: 99px 0 102px 0
+}
+
 #vendor_title {
     font-size: 30px;
-    padding: 99px 0 30px 0;
+    margin: 0
 }
 
 #vendor_subtitle {
     font-size: 20px;
-    padding-bottom: 60px
+    padding-bottom: 60px;
+    margin: 0
 }
 
 .input_form_vendor {
@@ -257,22 +257,30 @@ h2 {
 }
   
   #vendor_send_button {
+    transition: 0.15s;
     background-color: #f7b516;
     width: 370px;
     height: 70px;
-    border: none
+    border: none;
+    color: white
+  }
+
+.yellow_button:hover {
+      transition: 0.15s;
+      box-shadow: 1px 1px 6px #d19915
   }
 
 #vendor_call {
     font-size: 14px;
     line-height: 29px;
     padding-top: 60px;
-    padding-bottom: 0
+    padding-bottom: 0;
+    margin: 0
 }
 
 #vendor_number {
     font-size: 30px;
-    padding-bottom: 102px
+    color: white
 }
 
 #guarantees {
@@ -359,10 +367,33 @@ h2 {
     font-size: 16px;
     text-decoration: underline;
     text-align: left;
+    padding: 0;
+    margin-top: 55px
+}
+
+.list-group-item:hover {
+    cursor: pointer
 }
 
 .list-group-description {
-    display: none
+    display: none;
+    background: white;
+    color: black;
+    font-size: 14px;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.75);
+    width: 330px;
+    height: 147px;
+    border-radius: 1px
+}
+
+.list-group-description:after {
+    content:"";
+    display: block;
+    position: absolute;
+    left: -15px;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-right: 15px solid #000;
 }
 
 #list-group-item-1 {
@@ -476,6 +507,7 @@ h2 {
     width: 370px;
     height: 70px;
     border: none;
+    color: white
 }
 
 #office {
@@ -504,10 +536,6 @@ h2 {
 #office-phone {
     font-size: 24px;
     color: black
-}
-
-#office-phone:hover {
-    text-decoration: underline;
 }
 
 #map {
@@ -539,6 +567,6 @@ footer {
     color: white;
 }
 
-#footer-phone:hover {
+.phone:hover {
     text-decoration: underline
 }

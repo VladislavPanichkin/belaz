@@ -1,9 +1,11 @@
 $(document).ready(function(){
-    $('li').mouseenter(function(){
-        console.log('yay!');
+    $('.list-group-item').on("click", function(event){
+        $(event.target).children().show()
     });
-    $('li').mouseleave(function(){
-
+    $(document).mouseup(function(e){
+        var item = $('.list-group-description')
+        if (!item.is(event.target) && item.has(event.target).length === 0){
+            item.hide();
+        }
     })
 });
-    
