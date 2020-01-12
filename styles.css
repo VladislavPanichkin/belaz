@@ -82,9 +82,9 @@ span :hover {
     background-color: #f7b516;
     padding: 100px 180px 500px 100px;
     margin: 0px 975px 0px 375px;
-    width: 570px;
+    width: 40%;
     height: 860px;
-    /* text-align: left */
+    font-size: 40px
 }
 
 .container > .list {
